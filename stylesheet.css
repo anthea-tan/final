@@ -1,0 +1,221 @@
+* {
+    margin: 5px;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto auto;
+    width: 100%;
+    background-color: rgb(138, 104, 78);
+
+}
+
+main div.cycle-slideshow img {
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+
+main p {
+    width: 90%;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+
+
+header {
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+    line-height: 2em;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 10%;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+nav li.logo {
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    flex: 6;
+    text-align: center;
+    line-height: 3em;
+    float: inline-start;
+    background-color: rgb(143, 120, 103);
+    width: 200px;
+
+}
+
+nav ul li.order {
+    line-height: 3em;
+    border-radius: 10px;
+    background-color: rgb(212, 172, 142);
+    width: 150px
+}
+
+nav ul li.help {
+    line-height: 2em;
+    border-radius: 10px;
+    background-color: rgb(143, 120, 103);
+
+}
+
+li a {
+    color: rgb(92, 64, 51);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    background-color: rgb(143, 120, 103);
+}
+
+.active {
+    background-color: rgb(143, 120, 103);
+
+}
+
+#content {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+aside {
+    display: inline-flex;
+    margin: auto auto;
+    padding: 10px
+}
+
+aside img {
+    width: 100%;
+
+}
+
+#feature-item-one,
+#feature-item-two,
+#feature-item-three {
+    width: 30%;
+    text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    nav {
+        font-size: 1.3em;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: .1em;
+    }
+
+    nav li {
+        background-color: #efcc97;
+        border-radius: 1em;
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: 10px;
+        line-height: 1em;
+    }
+
+    main div.cycle-slideshow img {
+        padding-left: 35px;
+    }
+
+    main p {
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    nav ul li.order {
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+
+    nav ul li.help {
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+
+    nav li.logo {
+        line-height: 1.5em;
+        font-size: 15px;
+        border-radius: 100%;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    nav {
+        font-size: 1.3em;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: .1em;
+    }
+
+    nav li {
+        background-color: #efcc97;
+        border-radius: 2em;
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: 15px;
+        line-height: 2em;
+    }
+
+    main div.cycle-slideshow img {
+        padding-left: 45px;
+    }
+
+    main p {
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    nav ul li.order {
+        line-height: 2em;
+        font-size: 20px;
+    }
+
+    nav ul li.help {
+        line-height: 2em;
+        font-size: 20px;
+    }
+
+    nav li.logo {
+        line-height: 2em;
+        font-size: 20px;
+        border-radius: 100%;
+        width: 100px;
+    }
+}
